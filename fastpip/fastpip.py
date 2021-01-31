@@ -169,7 +169,7 @@ def vertical_distance(left, current, right):
         # Otherwise we could have a ZeroDivisionError
         result = INFINITY
     else:
-        result = abs(((a_y + (c_y - a_y) * (b_x - a_x) / (c_x - a_x) - b_y)) * (c_x - a_x))
+        result = abs(((a_y + (c_y - a_y) * (b_x - a_x) / (c_x - a_x) - b_y)))
 
     return result
 
